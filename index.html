@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+    <div class="container">
+
+        <div class="tab">
+            <button id="london" type="button" class="btn" onclick="show(sec1,sec2,sec3,london,paris,tokyo)">London</button>
+            <button id="paris" type="button" class="btn" onclick="show(sec2,sec1,sec3,paris,london,tokyo)">Paris</button>
+            <button id="tokyo" type="button" class="btn" onclick="show(sec3,sec2,sec1,tokyo,london,paris)">Tokyo</button>
+       </div>
+
+       <div class="contain" id="sec1">
+        <h4>London</h4>
+        <p>London is the capital city of England.</p>
+       </div>
+
+        <div class="contain" id="sec2">
+        <h4>Paris</h4>
+        <p>Paris is the capital of France.</p>
+       </div>
+
+       <div class="contain" id="sec3">
+        <h4>Tokyo</h4>
+        <p>Tokyo is the capital of Japan.</p>
+       </div>
+
+    </div>
+
+
+    <script>
+
+    
+
+      
+
+        function show(x,y,z,a,b,c){
+            
+            x.style.display = "block"
+            y.style.display = "none"
+            z.style.display = "none"
+            a.style.backgroundColor = "#ddd"
+            b.style.backgroundColor = "red"
+            c.style.backgroundColor = "red"
+
+
+
+           
+        }
+
+
+    </script>
+  
+
+
+    
+</body>
+</html>

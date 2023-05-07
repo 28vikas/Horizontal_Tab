@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.container{
+ width: 80%;
+ margin: auto;
+ height: 180px;
+ margin-top: 200px;
+ border: 2px solid rgb(171, 52, 52);
+}
+
+
+.tab{
+    width: 100%;
+    background-color: red;
+
+    height: 50px;
+    display: flex;
+    
+}
+
+button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-right: 1px solid black;
+}
+
+button:hover{
+   background-color: #ddd !important; 
+}
+.btn{
+    padding: 15px 20px;
+    
+}
+
+.contain{
+    padding: 0px 15px;
+}
+
+#sec2,#sec3{
+    display: none;
+}
